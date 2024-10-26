@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    body{
+        overflow-x: hidden;
+        font-family: 'Arima', sans-serif;
+    }
+    .menu ul .nav-item{
+        @apply px-1 md:px-4 cursor-pointer font-bold text-transparent bg-gradient-to-r from-white to-white bg-clip-text hover:bg-gradient-to-r hover:from-[#d63031] hover:to-[#fdcb6e] transition duration-300
+    }
+
+    .login-link, .signup-link{
+        @apply cursor-pointer text-transparent bg-gradient-to-r from-white to-white bg-clip-text hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 transition duration-300
+    }
+
+    .hero{
+        background: url('./assets/images/ebook_self_hero_bg.png');
+    }
+
+    .primary-button{
+        @apply bg-primary px-4 py-2 sm:px-8 sm:py-3 rounded-[35px] text-white font-bold hover:bg-white hover:text-textPrimary
+    }
+
+    .custom-shadow{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    
+
+   
+
+}
+
+
+
