@@ -6,7 +6,7 @@ const SingleCategory = (props) => {
     const {categoryTitle, categoryBackground} = props;
 
     return (
-        <div className="single-category bg-no-repeat bg-cover bg-center min-h-[100px] flex items-center justify-center px-[50px] rounded-md custom-shadow cursor-pointer" style={ { 
+        <div className="single-category bg-no-repeat bg-cover bg-centers min-h-[100px] flex items-center justify-center px-[50px] rounded-md custom-shadow cursor-pointer" style={ { 
 
             backgroundImage: `url(${categoryBackground})`,
     
