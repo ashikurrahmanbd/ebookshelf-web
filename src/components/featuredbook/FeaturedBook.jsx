@@ -1,4 +1,7 @@
+import { faStar } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import PropTypes from "prop-types"
+import Rating from "react-rating"
 import { images } from "../../assets/images/images"
 import Button from "../button/Button"
 
@@ -18,8 +21,9 @@ const FeaturedBook = ({classList}) => {
                 <div className="book-info flex flex-col justify-between">
                     <p className="book-title font-bold">Silent Women</p>
                     <p className="book-author text-[12px]">Aileen Nedd</p>
-                    <div className="rating mt-2s">
-
+                    <div className="rating mt-2s mt-8">
+                        <p>Rating</p>
+                        <Rating readonly={true} initialRating={4} fullSymbol={<FontAwesomeIcon icon={faStar} color="#FFFF00"/>} emptySymbol={<FontAwesomeIcon icon={faStar} color="#FFFFFF"/>} />
                     </div>
                     <div className="tag-n-book-description flex flex-col justify-between">
                         <p className="book-short-description text-[12px] mt-4 flex-grow">
