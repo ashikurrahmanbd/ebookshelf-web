@@ -17,6 +17,10 @@ const Nav = () => {
 
     }
 
+    function mobileLinkHandler(){
+        setShowMobileMenu(!showMobileMenu);
+    }
+
 
 
     return (
@@ -69,7 +73,16 @@ const Nav = () => {
                 </div>
             </div>
 
-            <div className={`md:hidden mobile-menu-wrapper bg-slate-400 absolute transition-all ${showMobileMenu ? 'w-96 h-[100vh] top-[100%] right-0' : 'top-[100%] right-[-100%]'}`}>
+            <div className={`md:hidden mobile-menu-wrapper bg-primary absolute transition-all shadow-md ${showMobileMenu ? 'w-96 h-[100vh] top-[100%] right-0 block z-[100]' : 'top-[100%] right-[-300%]'}`}>
+
+                <ul className="p-4 text-2xl flex flex-col h-full items-center justify-center gap-8">
+                    <li><Link to="/" onClick={mobileLinkHandler}>Home</Link></li>
+                    <li><Link to="/books" onClick={mobileLinkHandler}>Books</Link></li>
+                    <li><Link to="/categories" onClick={mobileLinkHandler}>Categories</Link></li>
+                    <li><Link to="/about-us" onClick={mobileLinkHandler}>About Us</Link></li>
+                    <li><Link to="/book-reviews" onClick={mobileLinkHandler}>Book Review</Link></li>
+                    <li><Link to="/contact" onClick={mobileLinkHandler}>Contact Us</Link></li>
+                </ul>
 
             </div>
         </div>

@@ -13,7 +13,7 @@ const RecommendedBooks = () => {
                 <div className="recommended-books-elements">
 
                     <div className="section-heading text-white flex justify-between items-center mb-8">
-                        <h2 className="text-3xl">Trending Books</h2>
+                        <h2 className="text-3xl">Recommendeds Books</h2>
                         <div className="flex items-center gap-2 text-lg cursor-pointer">
                             <p className="text-white">See All</p>
                             <span><FontAwesomeIcon icon={faArrowRight} /></span>

@@ -10,8 +10,8 @@ const FeaturedBook = ({classList}) => {
 
 
     return (
-        <div className={`featuredbook bg-white bg-opacity-20 backdrop-blur-2xl p-4 rounded-lg custom-shadow flex flex-row gap-2 w-full text-white ${classList}`}>
-            <div className="left-image flex-shrink-0 flex-1 max-h-[430px] overflow-hidden">
+        <div className={`featuredbook bg-white bg-opacity-20 backdrop-blur-2xl p-4 rounded-lg custom-shadow md:flex flex-row gap-2 w-full text-white ${classList}`}>
+            <div className="left-image flex-shrink-0 flex-1 md:max-h-[430px] overflow-hidden">
                 <img className="rounded-md w-full h-full" src={images.silentWomen} alt="" />
             </div>
             <div className="relative right-content flex-shrink-0 p-2 flex-1">
@@ -43,7 +43,7 @@ const FeaturedBook = ({classList}) => {
                         </div>
                     </div>
                     <div className="book-action">
-                        <Button title="Read Now" navigateTo="#" className="absolute bottom-0" />
+                        <Button title="Read Now" navigateTo="#" className="mt-4 lg:absolute bottom-0" />
                     </div>
                 </div>
             </div>
