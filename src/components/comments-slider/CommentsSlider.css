@@ -1,0 +1,39 @@
+/* Change the color of all dots */
+
+.slick-dots li button:before {
+    color: white !important; /* Inactive dot color */
+    font-size: 16px !important; /* Adjust size if needed */
+  }
+  
+  /* Change the color of the active dot */
+  .slick-dots li.slick-active button:before {
+    color: rgb(255, 255, 255) !important; /* Active dot color */
+    opacity: 1 !important;
+  }
+
+  .slick-dots li button:hover:before {
+    color: white; /* Dot color on hover */
+  }
+
+  .slick-slide > div{
+    margin: 0 10px !important;
+  }
+
+  .slick-next{
+    right: 53px !important;
+    top: 45%;
+    
+  }
+
+  .slick-prev{
+    top: 45%;
+    left: 30px !important;
+    z-index: 9999;
+  }
+
+  /* arrow */
+
+.slick-slider .slick-arrow::before{
+    font-size: 40px !important;
+}
+

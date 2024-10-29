@@ -45,9 +45,23 @@ import bcatbg2 from './bcatbg2.png'
 import bcatbg3 from './bcatbg3.png'
 import bcatbg4 from './bcatbg4.png'
 
+import newsletterLeftImage from './newsletter-left.jpg'
+
+import aboutS1 from './about-s-1.png'
+
+import aboutS2 from './about-s-2.png'
+
+import aboutS3 from './about-s-3.png'
+
+import commentPeson1 from './comment-person1.png'
+
+import commentPeson2 from './comment-person2.png'
+
+import commentPeson3 from './comment-person3.png'
+
 
 export const images = {
 
-    booksBgCropped, booksBg, ebookShelfHeroBg, ebookSoul, fiveFeetApart, hideAndSeek, iWantMyHatBack, liarsDictionary, oceamVoungOnEarth, silentWomen, sinEater, sofiOksanen, sweetestFruits, tessOfTheRoad, theBelovedGirls, theGirlOfInkStars, theLastCuentista, theShadowKing, underStory, windWitch, ebookShelfLogo, bcatbg1, bcatbg2, bcatbg3, bcatbg4
+    booksBgCropped, booksBg, ebookShelfHeroBg, ebookSoul, fiveFeetApart, hideAndSeek, iWantMyHatBack, liarsDictionary, oceamVoungOnEarth, silentWomen, sinEater, sofiOksanen, sweetestFruits, tessOfTheRoad, theBelovedGirls, theGirlOfInkStars, theLastCuentista, theShadowKing, underStory, windWitch, ebookShelfLogo, bcatbg1, bcatbg2, bcatbg3, bcatbg4, newsletterLeftImage, aboutS1, aboutS2, aboutS3, commentPeson1, commentPeson2, commentPeson3
 
 }
