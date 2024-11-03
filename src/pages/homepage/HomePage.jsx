@@ -2,6 +2,7 @@ import AboutUs from "./sections/AboutUs"
 import BookCategory from "./sections/BookCategory"
 import Comments from "./sections/comments"
 import CreateAccount from "./sections/CreateAccount"
+import FooterTop from "./sections/FooterTop"
 import Hero from "./sections/Hero"
 import MostPopularBooks from "./sections/MostPopularBooks"
 import RecommendedBooks from "./sections/RecommendedBooks"
@@ -23,6 +24,7 @@ const HomePage = () => {
             <MostPopularBooks />
             <AboutUs />
             <Comments />
+            <FooterTop />
         </div>
         
     )
