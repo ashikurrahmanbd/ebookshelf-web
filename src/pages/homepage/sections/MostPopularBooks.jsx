@@ -17,11 +17,12 @@ const MostPopularBooks = () => {
                             <span><FontAwesomeIcon icon={faArrowRight} /></span>
                         </div>
                     </div>
-                    <div className="mt-[40px] trending-books-grid text-white gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <div className="mt-[40px] trending-books-grid text-white gap-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                         <SingleBook bookTitle="On Earth We're Briefly Gorgeous" bookAuthor="Ocean Voung" readMorePath="#" imgSource={images.tessOfTheRoad} />
                         <SingleBook bookTitle="The Swetest Fruits" bookAuthor="Monique Troung" readMorePath="#" imgSource={images.theBelovedGirls} />
                         <SingleBook bookTitle="The Shadow King" bookAuthor="Harry Sidebottom" readMorePath="#" imgSource={images.theShadowKing} />
                         <SingleBook bookTitle="I want my hat back" bookAuthor="Joney Klassen" readMorePath="#" imgSource={images.theLastCuentista} />
+                        <SingleBook bookTitle="On Earth We're Briefly Gorgeous" bookAuthor="Ocean Voung" readMorePath="#" imgSource={images.tessOfTheRoad} />
                        
                     </div>
                 </div>

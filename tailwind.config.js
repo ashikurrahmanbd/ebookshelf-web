@@ -32,6 +32,19 @@ export default {
         'custom-dark': '4px 8px 10px rgba(0, 0, 0, 0.25)',
         'custom-colored': '0 1px 6px rgba(253, 121, 168, 0.4), 0 4px 7px rgba(225, 112, 85, 0.2)',
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '3rem',
+          xl: '4rem',
+          '2xl': '5rem',
+        },
+      },
+      screens: {
+        '2xl': '1200px', // This ensures your container max-width hits at 1200px
+      },
     },
   },
   plugins: [],

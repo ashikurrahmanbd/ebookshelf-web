@@ -10,18 +10,18 @@ const FeaturedBook = ({classList}) => {
 
 
     return (
-        <div className={`featuredbook bg-white bg-opacity-20 backdrop-blur-2xl p-4 rounded-lg custom-shadow md:flex flex-row gap-2 w-full text-white ${classList}`}>
-            <div className="left-image flex-shrink-0 flex-1 md:max-h-[430px] overflow-hidden">
-                <img className="rounded-md w-full h-full" src={images.silentWomen} alt="" />
+        <div className={`featuredbook bg-white bg-opacity-20 backdrop-blur-2xl p-4 rounded-lg custom-shadow md:flex flex-row gap-3 w-full text-white flex ${classList}`}>
+            <div className="left-image flex-shrink-0 w-[40%] md:max-h-[350px] overflow-hidden">
+                <img className="rounded-md w-full h-[250px] sm:h-full object-cover" src={images.silentWomen} alt="" />
             </div>
-            <div className="relative right-content flex-shrink-0 p-2 flex-1">
+            <div className="relative right-content w-[60%] flex-shrink-0 p-2 flex-1">
                 <div className="released">
                     <p className="mb-4">Released: 2022</p>
                 </div>
                 <div className="book-info flex flex-col justify-between">
                     <p className="book-title font-bold">Silent Women</p>
                     <p className="book-author text-[12px]">Aileen Nedd</p>
-                    <div className="rating mt-2s mt-8">
+                    <div className="rating mt-2s mt-4">
                         <p>Rating</p>
                         <Rating readonly={true} initialRating={4} fullSymbol={<FontAwesomeIcon icon={faStar} color="#FFFF00"/>} emptySymbol={<FontAwesomeIcon icon={faStar} color="#FFFFFF"/>} />
                     </div>

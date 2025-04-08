@@ -17,7 +17,7 @@ const SingleBook = (props) => {
                 <FontAwesomeIcon icon={faBookmark} className="text-lg absolute top-0 right-0 text-red-600 p-1 cursor-pointer p-2"/>
             </div>
             <div className="book-description text-center">
-                <h3 className={`text-lg truncate ${titleTextSize}`}>{`${bookTitle}`}</h3>
+                <h3 className={`text-base truncate ${titleTextSize}`}>{`${bookTitle}`}</h3>
                 <p className="text-sm">{`${bookAuthor}`}</p>
             </div>
             <div className="book-action mt-4 text-center">
